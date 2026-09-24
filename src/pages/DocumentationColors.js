@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "/src/components/Image/Image.js";
+import Image from "../components/Image/Image.js";
 import Colors from "../components/Colors/Colors.js";
 import styles from "./pages.module.scss";
 
