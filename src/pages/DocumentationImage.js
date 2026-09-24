@@ -1,9 +1,9 @@
 import styles from "./pages.module.scss"
-import Image from "./components/Image/Image.js";
-import Codeblock from "./components/Codeblock/Codeblock.js";
-import ImageOne from "./images/image-2.jpg";
-import ImageTwo from "./images/image-5.jpg";
-import ImageThree from "./images/image-3.jpeg";
+import Image from "/src/components/Image/Image.js";
+import Codeblock from "/src/components/Codeblock/Codeblock.js";
+import ImageOne from "../images/image-2.jpg";
+import ImageTwo from "../images/image-5.jpg";
+import ImageThree from "../images/image-3.jpeg";
 
 const DocumentationImage = () => {
 
