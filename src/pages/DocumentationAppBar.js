@@ -1,6 +1,6 @@
 import React from "react";
-import AppBar from "/src/components/AppBar/AppBar.js";
-import Codeblock from "/src/components/Codeblock/Codeblock.js";
+import AppBar from "../components/AppBar/AppBar.js";
+import Codeblock from "../components/Codeblock/Codeblock.js";
 
 const DocumentationAppBar = () => {
 
