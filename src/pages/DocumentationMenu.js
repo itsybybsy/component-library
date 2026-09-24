@@ -1,7 +1,7 @@
 import styles from "./pages.module.scss"
-import Menu from "/src/components/Menu/Menu.js";
+import Menu from "../components/Menu/Menu.js";
 
-import Codeblock from "/src/components/Codeblock/Codeblock.js";
+import Codeblock from "../components/Codeblock/Codeblock.js";
 
 const DocumentationMenu = () => {
 
