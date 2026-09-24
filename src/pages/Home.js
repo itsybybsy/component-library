@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./pages.module.scss"
 import Image from "/src/components/Image/Image.js";
-import ImagePlatform from "/src/images/platform-screen.jpg";
+import ImagePlatform from "../images/platform-screen.jpg";
 
 const Home = () => {
 
