@@ -3,7 +3,7 @@ import Image from "/src/components/Image/Image.js";
 import Colors from "../components/Colors/Colors.js";
 import styles from "./pages.module.scss";
 
-import ImagePallete from "/src/images/platform-pallete.png";
+import ImagePallete from "./images/platform-pallete.png";
 
 const DocumentationColors = () => {
   return (
