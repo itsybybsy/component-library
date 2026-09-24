@@ -1,4 +1,4 @@
-import Codeblock from "/src/components/Codeblock/Codeblock.js";
+import Codeblock from "../components/Codeblock/Codeblock.js";
 
 const DocumentationTemplate = () => {
 
