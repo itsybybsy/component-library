@@ -1,5 +1,5 @@
-import Box from "/src/components/Box/Box.js";
-import Codeblock from "/src/components/Codeblock/Codeblock.js";
+import Box from "../components/Box/Box.js";
+import Codeblock from "../components/Codeblock/Codeblock.js";
 
 const DocumentationBox = () => {
 
