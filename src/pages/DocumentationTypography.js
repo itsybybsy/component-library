@@ -1,7 +1,7 @@
 import styles from "./pages.module.scss"
 
-import Typography from "/src/components/Typography/Typography.js"
-import Codeblock from "/src/components/Codeblock/Codeblock.js";
+import Typography from "../components/Typography/Typography.js"
+import Codeblock from "../components/Codeblock/Codeblock.js";
 
 const DocumentationTypography = () => {
 
