@@ -1,0 +1,23 @@
+
+:root {
+  // Fonts
+  --font-header: 'Montserrat', sans-serif;
+  --font-body: 'Roboto Condensed', sans-serif;
+  --font-code: 'IBM Plex Mono', monospace;
+  
+  //color
+  --background-primary: #121212;
+  --background-secondary: #1E1E1E;
+  --font-primary: #E8E8E8;
+  --font-secondary: #FF6B6B;
+  --border-primary: #E8E8E8;
+  --link-primary: #E8E8E8;
+  --error: #FF3B3B;
+  --warning: #FF6A25;
+  --success: #34FEAD;
+  
+  //shortcuts
+  --bd:1px dashed var(--border-primary);
+  --br:4px;
+}
+

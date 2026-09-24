@@ -1,0 +1,31 @@
+.appbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #121212;
+    color: #E8E8E8;
+    border-radius: 10px;
+  }
+  
+  .title {
+    font-family: var(--font-header);
+    font-size: 20px;
+    font-weight: 600;
+    color: #E63232;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .link {
+    color: #E8E8E8;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  

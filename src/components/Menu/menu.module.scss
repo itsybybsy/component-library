@@ -1,0 +1,33 @@
+.menu {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    max-width: 200px;
+
+   & a {
+      color: #E8E8E8;
+      background-color: #E63232; 
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 400;
+      padding: 5px 10px;
+      border-radius: 10px;
+      transition: background 0.4s;
+      // box-shadow: 0 0 4px 2px rgba(255, 107, 107, 0.5);
+
+      &:hover {
+        background-color: #2F2F2F;
+        color:#E8E8E8;
+        // box-shadow: 0 0 4px 2px rgba(47, 47, 47, 0.5);
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      flex-direction: column;
+      row-gap: 20px;
+    }
+ 
+  }
+  
+
+  

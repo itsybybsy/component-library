@@ -1,0 +1,60 @@
+.variant_h1 {
+    font-size: 26px;
+    font-weight: 800;
+  }
+  
+  .variant_h2 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .variant_h3 {
+    font-size: 22px;
+    font-weight: 400;
+  }
+  
+  .variant_h4 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .variant_h5 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .variant_h6 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .variant_p,
+  .variant_body1,
+  .variant_subtitle1 {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  .variant_body2,
+  .variant_subtitle2 {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  
+  .color_primary {
+    color: var(--font-primary);
+  }
+  
+  .color_error {
+    color: var(--error);
+  }
+
+  .color_warning {
+    color: var(--warning);
+  }
+  
+  .color_success {
+    color: var(--success);
+  }
+  

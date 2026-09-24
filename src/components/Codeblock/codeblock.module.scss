@@ -1,0 +1,14 @@
+/* Custom Codeblock styles for grey-red theme */
+
+code[class*="language-"],
+pre[class*="language-"] {
+  background-color: #121212 !important;
+  font-family: 'IBM Plex Mono', monospace;
+ 
+  /* remove Prism text shadow */
+  text-shadow: none !important;
+}
+
+pre[class*="language-"] {
+  border: 1px dashed #E8E8E8;
+}

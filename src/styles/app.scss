@@ -1,0 +1,140 @@
+// this is the global stylesheet. all components can see these styles.
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+   box-sizing: border-box;
+   margin: 0px;
+}
+
+body { 
+  background-color: #121212;  
+  color: #E8E8E8;
+  font-family: var(--font);
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #E8E8E8;
+
+  &:hover {
+    color: #FF6B6B;
+  }
+
+}
+
+.active{
+  color: #E8E8E8;
+  background-color: #E63232; 
+  box-shadow: 0 0 4px 2px rgba(255, 107, 107, 0.5);
+}
+
+// MY CSS HERE
+h1 {
+  font-family: var(--font-header);
+  font-weight: 800;
+  font-size: 26px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: var(--font-header);
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+h3, h4, h5, h6 {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+p, span, li, a {
+  font-family: var(--font-body);
+  font-weight: 300;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+code, pre {
+  font-family: var(--font-code);
+}
+
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* LEFT SIDE NAV */
+.nav-wrapper {
+  flex: 1;
+  max-width: 20%;
+  background-color: #1E1E1E;
+  padding: 20px;
+  margin: 10px 0 10px 10px;
+  border-radius: 10px;
+  border: 2px solid #2F2F2F;
+}
+
+/* RIGHT SIDE CONTAINER */
+.container-wrapper {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  gap: 10px;
+  padding: 0px 20px;
+  background-color: #121212;  
+}
+
+/* HEADER */
+.header-wrapper {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+/* MAIN AREA (CONTENT + ARTICLES) */
+.main-layout {
+  width: 100%;
+  display: flex;
+  flex: 1;
+  padding: 10px;
+  background-color: #1E1E1E;
+  border-radius: 10px;
+  border: 2px solid #2F2F2F;
+}
+
+/* MAIN CONTENT */
+.content {
+  flex: 3;
+  background-color: #2F2F2F;
+  margin: 10px;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: 1px dashed #E8E8E8;
+}
+
+/* ARTICLE SIDE */
+.article-bar {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 10px;
+  margin: 10px;
+}
+
+/* FOOTER (INSIDE WRAPPER BUT FULL WIDTH) */
+.footer-wrapper {
+  width: 100%;
+  background-color: #1E1E1E;
+  text-align: center;
+  padding: 10px;
+  flex-shrink: 0;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 2px solid #2F2F2F;
+}

@@ -1,0 +1,46 @@
+.box {
+    width: 160px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .Primary {
+    background-color: #E63232;
+    color: #E8E8E8;
+    border: 1px solid #FF6B6B;
+    box-shadow: 0 0 4px 2px rgba(255, 158, 158, 0.2);
+  
+    &:hover {
+      background-color: #FF3B3B;
+    }
+  }
+  
+  .Secondary {
+    background-color: #1e1e1e;
+    color: #E8E8E8;
+    box-shadow: 0 0 4px 2px rgba(232, 232, 232, 0.2);
+  
+    &:hover {
+        background-color: #2f2f2f;
+    }
+  }
+  
+  .Outlined {
+    color: #E8E8E8;
+    background-color: transparent;
+    border: 1px solid #FF6B6B;
+    box-shadow: none;
+    
+    &:hover {
+        background-color: transparent;
+        box-shadow: 0 0 4px 2px rgba(255, 158, 158, 0.2);
+
+    }
+  }
+
+  
