@@ -1,5 +1,5 @@
-import Codeblock from "/src/components/Codeblock/Codeblock.js";
-import Card from "/src/components/Card/Card.js";
+import Codeblock from "../components/Codeblock/Codeblock.js";
+import Card from "../components/Card/Card.js";
 
 const DocumentationCard = () => {
   const snippet = `
