@@ -6,7 +6,7 @@ import styles from "./footer.module.scss";
   
     return (
       <footer className={styles.footer}>
-        <p>© {currentYear} Barbora Mazuchova, Assessment 2.</p>
+        <p>© {currentYear} Barbora M.</p>
       </footer>
     );
   };
